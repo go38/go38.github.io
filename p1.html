@@ -17,7 +17,7 @@
             height: 100%;
         }
     </style>
-    <!-- 引入Pannellum库 -->
+    <!-- 導入Pannellum程式庫 -->
     <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css">
 </head>
@@ -26,12 +26,12 @@
     <div id="panorama"></div>
 
     <script>
-        // 初始化Pannellum全景显示
+        // 初始化Pannellum全景顯示器
         pannellum.viewer('panorama', {
             "type": "equirectangular",
-            "panorama": "2.jpg", // 替换为你的360度全景照片的路径
+            "panorama": "2.jpg", // 取代為您的360度全景照片的檔案路徑
             "autoLoad": true,
-            "autoRotate": -2 // 自动旋转速度（负数为逆时针）
+            "autoRotate": -2 // 自動旋轉速度(負數為逆時針)
         });
     </script>
 </body>
